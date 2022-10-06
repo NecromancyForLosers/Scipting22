@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+header {
+	background-color:black;
+text-align:center;
+	color: #6F149E;
+font-family: 'Nabla', cursive;
+}
+
+body {
+	background-color: #000000;
+	color:white;
+	text-align:center;
+	padding:20px;
+}
+
+section {
+	background-color: orange;
+	max-width: 1200px;
+	color: #6F149E;
+	margin:0px auto;
+	font-family: 'Rubik Wet Paint', cursive;
+	padding:30px;
+	overflow:hidden;
+	
+}
+.epic {
+	background-color: #6F149E;
+	color:#FFA500;
+	padding:10px;
+}
+footer{
+	padding-top:30px;
+}
+a:link{
+color:#6F149E;
+	
+}
+/*visted link*/
+a:visited{
+	color:#390A6C;
+}
+/*mouse hover*/
+a:hover{
+	color:red;
+	text-decoration:none;
+}
+/*pressing down on link*/
+a:active{
+	color:#FFFD00;
+}
+section ul {
+  list-style-type: none;
+  margin: 0;
+ 
+  overflow: hidden;
+	background-color:#FFB226;
+	padding:20px;
+}
+section ol {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+background-color: #5F1188;
+	padding:20px;
+}
+blockquote{
+	background-color:#FFB226;
+	padding-bottom:30px;
+	padding-top:30px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #9554F4;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.sticky{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
