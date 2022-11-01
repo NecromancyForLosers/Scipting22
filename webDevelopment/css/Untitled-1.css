@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*if you want a different look in each header on the different pages, then use an ID rather than just a header*/
+
+#homeMasthead {
+/*	background-color:darkblue;*/
+	height:80vh;
+	background-image: url("../images/backgrounds/Convocation-mobile.jpg");
+	background-size:cover;
+	background-position:center;
+	
+}
+#ServiceMasthead{
+		height:80vh;
+	background-image: url("../images/backgrounds/basedvet.jpg");
+	background-size:cover;
+	background-position:center;
+}
+
+.height80{
+	height:80vh;
+}
+
+.display-1{
+	font-size:30pt;
+}
+
+.bg-dark{
+	background-color:mediumpurple!important;
+	
+	
+}
+
+footer{
+	
+	background-color:black;
+	padding-top:100px;
+	padding-bottom: 100px;
+	color:white;
+}
+
+a{
+	color:red;
+}
+a:link a:visited {
+	color:red;
+}
+a:hover {
+	color:aqua;
+}
+
+/* Small devices (portrait tablets and large phones, 576px and up) */
+@media only screen and (min-width: 576px) {
+	.display-1{
+	font-size:60pt;
+}
+	
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 768px) {
+	
+	#homeMasthead {
+		background-image: url("../images/backgrounds/jim.jpg");
+	}
+	.display-1{
+	font-size:80pt;
+	}
+}
