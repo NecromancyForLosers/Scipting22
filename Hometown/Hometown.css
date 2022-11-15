@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Index*/
+#Lethbridge {
+	
+	background-image: url("attractionspic.jpg");
+	background-size:100%;
+	padding:80pt;
+}
+
+#footer {
+	background-color:#343A40;
+        min-width:100%;
+        max-width:100%;
+        height:auto;
+}
+
+a { text-decoration:none; color: white; }
+
+#coolreferences
+{
+	background-color:grey;
+	 min-width:100%;
+        max-width:100%;
+        height:auto;
+	padding:120pt;
+	
+}
+
+
+p {
+font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+	font-family: 'Sono', sans-serif;
+}
